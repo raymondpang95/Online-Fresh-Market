@@ -1,0 +1,120 @@
+@import "../base/fd-variable.scss";
+@import "../base/fd-mixin.scss";
+@import "./project-variable.scss";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  display: block;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+input,
+textarea {
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  outline-color: $color-secondary;
+  color: $color-secondary;
+  padding: 6px 12px;
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"] {
+  border: none;
+  width: auto;
+}
+
+table {
+  padding: 0;
+  width: 100%;
+  border-spacing: 0;
+  thead {
+    tr {
+      th {
+        background-color: white;
+        border: 1px solid $color-15;
+        text-align: center;
+        padding: 8px 16px;
+        // color: $color-14;
+        color: $color-secondary;
+        &:first-of-type {
+          text-align: center;
+          width: 70px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:last-of-type {
+        td {
+          border-bottom: 1px solid $color-15;
+        }
+      }
+      td {
+        border: 1px solid $color-15;
+        border-bottom: none;
+        border-right: none;
+        padding: 8px 8px;
+        text-align: left;
+        color: $color-11;
+        // padding: 16px;
+        line-height: 1.8;
+        &:first-of-type {
+          text-align: center;
+          width: 40px;
+          padding: 0;
+        }
+        &:last-of-type {
+          border-right: 1px solid $color-15;
+        }
+      }
+    }
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  border: 1px solid #dadada;
+  background-color: white;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  font-size: 18px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.container-phone {
+  padding-right: 8px;
+  margin-right: auto;
+  padding-left: 8px;
+  margin-left: auto;
+  max-width: 568px;
+  width: 100%;
+}

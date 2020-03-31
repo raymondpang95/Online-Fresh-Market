@@ -1,0 +1,281 @@
+@import "../base/fd-variable.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700&display=swap');
+
+$space: 8px;
+
+$container-sm-max-width: 100%;
+$container-md-max-width: 100%;
+$container-lg-max-width: 100%;
+$container-xl-max-width: 1500px;
+
+$container-padding: #{$space * 2};
+$container-xs-padding: $space;
+
+$color-main: #d77d2a;
+$color-secondary: #323671;
+$color-1: #39393e;
+$color-2: #66666a;
+$color-3: #003354;
+$color-4: #2e90b7;
+$color-5: #10567b;
+$color-6: #929295;
+$color-7: #F8F8F8;
+$color-8: #03D1A4; // Whatsapp color
+$color-9: #d3d3d5;
+
+$color-10:#FAFAFA;
+$color-11:#757D85;
+$color-12:#F1F4F6;
+$color-13:#F7F9FA;
+$color-14:#333333;
+$color-15:#e6ecf5;
+
+
+
+$font-family-1: "Heebo", -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei,
+  Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+
+$font-family-2: "", -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC,
+  Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+
+$font-family-3: "", -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC,
+  Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+
+/* Font size with responsive */
+$h1: 24px;
+$h1-sm: 26px;
+$h1-md: 26px;
+$h1-lg: 30px;
+$h1-xl: 30px;
+
+$h2: 22px;
+$h2-sm: 24px;
+$h2-md: 24px;
+$h2-lg: 28px;
+$h2-xl: 28px;
+
+$h3: 18px;
+$h3-sm: 20px;
+$h3-md: 22px;
+$h3-lg: 24px;
+$h3-xl: 24px;
+
+$h4: 16px;
+$h4-sm: 18px;
+$h4-md: 18px;
+$h4-lg: 20px;
+$h4-xl: 20px;
+
+$h5: 15px;
+$h5-sm: 16px;
+$h5-md: 16px;
+$h5-lg: 18px;
+$h5-xl: 18px;
+
+$h6: 14px;
+$h6-sm: 15px;
+$h6-md: 15px;
+$h6-lg: 16px;
+$h6-xl: 16px;
+
+$p: 12px;
+$p-sm: 13px;
+$p-md: 13px;
+$p-lg: 14px;
+$p-xl: 14px;
+/* Font size with responsive */
+
+
+/* Other font setting with responsive */
+/* h1 */
+$letter-spacing-h1: normal;
+$line-height-h1: 1.4;
+$margin-h1: 0 0 0;
+
+$letter-spacing-h1-sm: normal;
+$line-height-h1-sm: 1.4;
+$margin-h1-sm: 0 0 0;
+
+$letter-spacing-h1-md: normal;
+$line-height-h1-md: 1.4;
+$margin-h1-md: 0 0 0;
+
+$letter-spacing-h1-lg: normal;
+$line-height-h1-lg: 1.4;
+$margin-h1-lg: 0 0 0;
+
+$letter-spacing-h1-xl: normal;
+$line-height-h1-xl: 1.4;
+$margin-h1-xl: 0 0 0;
+/* h1 */
+
+/* h2 */
+$letter-spacing-h2: normal;
+$line-height-h2: 1;
+$margin-h2: 0 0 0;
+
+$letter-spacing-h2-sm: normal;
+$line-height-h2-sm: 1;
+$margin-h2-sm: 0 0 0;
+
+$letter-spacing-h2-md: normal;
+$line-height-h2-md: 1;
+$margin-h2-md: 0 0 0;
+
+$letter-spacing-h2-lg: normal;
+$line-height-h2-lg: 1;
+$margin-h2-lg: 0 0 0;
+
+$letter-spacing-h2-xl: normal;
+$line-height-h2-xl: 1.1;
+$margin-h2-xl: 0 0 0;
+/* h2 */
+
+/* h3 */
+$letter-spacing-h3: normal;
+$line-height-h3: 1;
+$margin-h3: 0 0 0;
+
+$letter-spacing-h3-sm: normal;
+$line-height-h3-sm: 1;
+$margin-h3-sm: 0 0 0;
+
+$letter-spacing-h3-md: normal;
+$line-height-h3-md: 1;
+$margin-h3-md: 0 0 0;
+
+$letter-spacing-h3-lg: normal;
+$line-height-h3-lg: 1;
+$margin-h3-lg: 0 0 0;
+
+$letter-spacing-h3-xl: normal;
+$line-height-h3-xl: 1;
+$margin-h3-xl: 0 0 0;
+/* h3 */
+
+/* h4 */
+$letter-spacing-h4: normal;
+$line-height-h4: 1;
+$margin-h4: 0 0 0;
+
+$letter-spacing-h4-sm: normal;
+$line-height-h4-sm: 1;
+$margin-h4-sm: 0 0 0;
+
+$letter-spacing-h4-md: normal;
+$line-height-h4-md: 1;
+$margin-h4-md: 0 0 0;
+
+$letter-spacing-h4-lg: normal;
+$line-height-h4-lg: 1;
+$margin-h4-lg: 0 0 0;
+
+$letter-spacing-h4-xl: normal;
+$line-height-h4-xl: 1;
+$margin-h4-xl: 0 0 0;
+/* h4 */
+
+/* h5 */
+$letter-spacing-h5: normal;
+$line-height-h5: 1;
+$margin-h5: 0 0 0;
+
+$letter-spacing-h5-sm: normal;
+$line-height-h5-sm: 1;
+$margin-h5-sm: 0 0 0;
+
+$letter-spacing-h5-md: normal;
+$line-height-h5-md: 1;
+$margin-h5-md: 0 0 0;
+
+$letter-spacing-h5-lg: normal;
+$line-height-h5-lg: 1;
+$margin-h5-lg: 0 0 0;
+
+$letter-spacing-h5-xl: normal;
+$line-height-h5-xl: 1;
+$margin-h5-xl: 0 0 0;
+/* h5 */
+
+/* h6 */
+$letter-spacing-h6: normal;
+$line-height-h6: 1;
+$margin-h6: 0 0 0;
+
+$letter-spacing-h6-sm: normal;
+$line-height-h6-sm: 1;
+$margin-h6-sm: 0 0 0;
+
+$letter-spacing-h6-md: normal;
+$line-height-h6-md: 1;
+$margin-h6-md: 0 0 0;
+
+$letter-spacing-h6-lg: normal;
+$line-height-h6-lg: 1;
+$margin-h6-lg: 0 0 0;
+
+$letter-spacing-h6-xl: normal;
+$line-height-h6-xl: 1;
+$margin-h6-xl: 0 0 0;
+/* h6 */
+
+/* p */
+$letter-spacing-p: normal;
+$line-height-p: 1.6;
+$margin-p: 0 0 0;
+
+$letter-spacing-p-sm: normal;
+$line-height-p-sm: 1.6;
+$margin-p-sm: 0 0 0;
+
+$letter-spacing-p-md: normal;
+$line-height-p-md: 1.6;
+$margin-p-md: 0 0 0;
+
+$letter-spacing-p-lg: normal;
+$line-height-p-lg: 1.6;
+$margin-p-lg: 0 0 0;
+
+$letter-spacing-p-xl: normal;
+$line-height-p-xl: 1.6;
+$margin-p-xl: 0 0 0;
+/* p */
+/* Other font setting with responsive */
+
+/* Constant Setup */
+$font-family-h1: $font-family-1;
+$color-h1: $color-main;
+$font-weight-h1: 700;
+
+$font-family-h2: $font-family-1;
+$color-h2: $color-main;
+$font-weight-h2: 700;
+
+$font-family-h3: $font-family-1;
+$color-h3: $color-main;
+$font-weight-h3: 700;
+
+$font-family-h4: $font-family-1;
+$color-h4: $color-main;
+$font-weight-h4: 700;
+
+$font-family-h5: $font-family-1;
+$color-h5: $color-main;
+$font-weight-h5: 700;
+
+$font-family-h6: $font-family-1;
+$color-h6: $color-main;
+$font-weight-h6: 400;
+
+$font-family-p: $font-family-1;
+$color-p: $color-1;
+$font-weight-p: 400;
+
+$body-font-family: $font-family-1;
+$body-background-color: $color-12;
+$body-font-size: $p-xl;
+
+$color-placeholder: $color-6;
+$font-weight: 400;
+/* Constant Setup */
